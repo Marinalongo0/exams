@@ -1,0 +1,23 @@
+#Question 1
+#Student Name = Marina Longoviti
+
+taylorSwiftSongs=["Love Story", "Shake It Off", "Delicate", "Wildest Dreams", "All Too Well", "Blank Space", "Bad Blood", "You Belong To Me", "Red", "22"] # q.1 part (a) placing the songs in the list
+print("These are some of our songs", taylorSwiftSongs, ".")#here i am letting the the user know what songs there are
+
+int(input("Please enter a song"))
+
+
+#Question 2
+#Student name = Marina Longoviti
+
+print("Welcome to Temperature Alert System")# part1. displaying a message to user.
+
+temperature=int(input("Please enter a temperature in degree Celsius: "))#part2. asking the user to enter a temperature.
+if temperature <20 :
+    print("Too Cold. Turn up the heating.") #part3 setting the conditions and the outputs that should be displayed. Displaying that the temperature is wrong.
+    
+if temperature ==20 and temperature <24 :
+    print("Temperature is just right.")# displaying that the temperature put in is correct.
+
+else:
+    print("Too Warm. Turn down the heating.")# displaying that  the temperature put in is wrong.
