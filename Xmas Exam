@@ -13,3 +13,11 @@ if choice == 'a'or'A':#(i), (vi) computation will still work with a capital lett
     print (num1 + num2)#(i)
 elif choice == 's'or'S':#(i), (vi)
     print (num1 - num2)#(i)
+
+
+
+#Student Name = Marina Longoviti q2
+
+squared_numbers = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400]#square brackets used to indicate it is a list
+
+print(squared_numbers)#(ii)
