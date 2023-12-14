@@ -1,0 +1,15 @@
+#Student Name = Marina Longovti q1
+
+#num1 = 9 (iv)comment out previous numbers
+#num2 = 5 (iv)
+num1 = int(input("Enter your first number"))#(iv) asking user to enter two numbers of their choice instead of the computer assigning the numbers 
+num2 = int(input("Enter your second numer"))#(iv)
+print("Please Enter Your Name Here : ") #(ii)asking user to iput their name
+name = input()#(ii)  
+print("Hello",name,"Welcome to the addition and subtraction calculator.")#(iii) when user inputs name. The computer is programmed to welcome them and use their name
+print('Do you want me to (a)(A)dd or (s)(S)ubtract?') #(i)this calculator can only add and subtract at the moment.(vi)modify the computatio to make it work with a capital letter
+choice = input()#(i)
+if choice == 'a'or'A':#(i), (vi) computation will still work with a capital letter
+    print (num1 + num2)#(i)
+elif choice == 's'or'S':#(i), (vi)
+    print (num1 - num2)#(i)
